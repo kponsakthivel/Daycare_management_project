@@ -1,0 +1,239 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:CD-{###}",
+ "creation": "2024-04-23 11:43:57.430156",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "profile_section",
+  "name1",
+  "blood_group",
+  "age",
+  "address",
+  "column_break_cohr",
+  "health_issues",
+  "medications",
+  "mother_tongue",
+  "care_time",
+  "parents_details_section",
+  "fathers_name",
+  "mothers_name",
+  "guardians_name",
+  "column_break_enzz",
+  "occupation_1",
+  "occupation_2",
+  "relationship",
+  "column_break_cbwj",
+  "phone_number_1",
+  "phone_number_2",
+  "phone_number_3",
+  "column_break_meak",
+  "email_1",
+  "email2",
+  "email3",
+  "fees_details_section",
+  "monthly_fee",
+  "column_break_fban",
+  "amount_paid",
+  "column_break_vkpr",
+  "balance_amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "profile_section",
+   "fieldtype": "Section Break",
+   "label": "Profile"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "blood_group",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Blood Group",
+   "options": "O+\nO-\nAB-\nAB+\nA-\nA+\nB-\nB+",
+   "reqd": 1
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "label": "Age"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "column_break_cohr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "health_issues",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Health issues",
+   "reqd": 1
+  },
+  {
+   "fieldname": "medications",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Medications",
+   "reqd": 1
+  },
+  {
+   "fieldname": "mother_tongue",
+   "fieldtype": "Select",
+   "label": "Mother tongue",
+   "options": "Tamil\nTelugu\nHindi\nKannada\nMalayalam"
+  },
+  {
+   "fieldname": "care_time",
+   "fieldtype": "Time",
+   "label": "Care time"
+  },
+  {
+   "fieldname": "parents_details_section",
+   "fieldtype": "Section Break",
+   "label": "Parent's Details"
+  },
+  {
+   "fieldname": "fathers_name",
+   "fieldtype": "Data",
+   "label": "Father's Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "mothers_name",
+   "fieldtype": "Data",
+   "label": "Mother's Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "guardians_name",
+   "fieldtype": "Data",
+   "label": "Guardian's Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_enzz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "occupation_1",
+   "fieldtype": "Data",
+   "label": "Occupation 1"
+  },
+  {
+   "fieldname": "occupation_2",
+   "fieldtype": "Data",
+   "label": "Occupation 2"
+  },
+  {
+   "fieldname": "relationship",
+   "fieldtype": "Data",
+   "label": "Relationship"
+  },
+  {
+   "fieldname": "column_break_cbwj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "phone_number_1",
+   "fieldtype": "Data",
+   "label": "Phone Number 1",
+   "reqd": 1
+  },
+  {
+   "fieldname": "phone_number_2",
+   "fieldtype": "Data",
+   "label": "Phone Number 2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "phone_number_3",
+   "fieldtype": "Data",
+   "label": "Phone Number 3",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_meak",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "email_1",
+   "fieldtype": "Data",
+   "label": "email 1"
+  },
+  {
+   "fieldname": "email2",
+   "fieldtype": "Data",
+   "label": "email2"
+  },
+  {
+   "fieldname": "email3",
+   "fieldtype": "Data",
+   "label": "email3"
+  },
+  {
+   "fieldname": "fees_details_section",
+   "fieldtype": "Section Break",
+   "label": "Fees Details"
+  },
+  {
+   "fieldname": "monthly_fee",
+   "fieldtype": "Data",
+   "label": "Monthly Fee"
+  },
+  {
+   "fieldname": "column_break_fban",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amount_paid",
+   "fieldtype": "Data",
+   "label": "Amount Paid"
+  },
+  {
+   "fieldname": "column_break_vkpr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "balance_amount",
+   "fieldtype": "Data",
+   "label": "Balance amount"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-29 16:02:45.421006",
+ "modified_by": "Administrator",
+ "module": "Daycare management",
+ "name": "Children",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

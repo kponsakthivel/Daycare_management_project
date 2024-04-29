@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format: PY-{###}",
+ "creation": "2024-04-24 09:42:32.447199",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "payment_section",
+  "column_break_hwok",
+  "payment_type",
+  "bills",
+  "payment_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "payment_section",
+   "fieldtype": "Section Break",
+   "label": "Payment"
+  },
+  {
+   "fieldname": "column_break_hwok",
+   "fieldtype": "Column Break",
+   "options": "Building rent\nFood\nEB\nMaintenance\nSalary\n"
+  },
+  {
+   "fieldname": "payment_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Payment Type ",
+   "options": "UPI\nCredit cards\nDebit cards\nNetbanking"
+  },
+  {
+   "fieldname": "bills",
+   "fieldtype": "Select",
+   "label": "Bills",
+   "options": "Food\nMaintenance\nWater\nEB\nBuilding Rent\nSalary"
+  },
+  {
+   "fieldname": "payment_status",
+   "fieldtype": "Select",
+   "label": "Payment Status",
+   "options": "Paid\nUnpaid",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-29 16:03:59.410513",
+ "modified_by": "Administrator",
+ "module": "Daycare management",
+ "name": "Payment",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
